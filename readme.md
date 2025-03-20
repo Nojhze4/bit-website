@@ -11,6 +11,6 @@ Mi historia
 
 ### Autor
 
-Jhon Ramirez
+© Jhon Ramirez 2025
 
 
