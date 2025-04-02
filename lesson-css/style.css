@@ -1,7 +1,11 @@
-div {
-    border: 2px solid blue;
-    padding: 20px;
-    margin: 20px;
-    
+/*REGLAS GLOBALES*/
+*{
+  box-sizing: border-box;
+
 }
 
+/*GENERALES*/
+body, html{
+  margin: 0;
+  height: 100%;
+}
