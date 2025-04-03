@@ -1,5 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(133, 133, 133);
+    color:rgb(18, 18, 196);
+
+h1{
+    background-color: aquamarine;
+    color:red;
+    padding: 20px;
     
+}
+
+}
+
+h2, h3 {
+    color:yellowgreen;
+}
+
+th, td{
+    padding: 20px 10px;
 }
