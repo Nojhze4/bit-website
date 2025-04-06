@@ -5,7 +5,6 @@
 .color5 { #ea2a15 }; */
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -22,7 +21,6 @@ body {
 body {
   background-color: #faedd9;
   color: #808f12;
-  font-family: "Playfair Display", serif;
   margin: 0;
   padding: 20;
 }
@@ -30,6 +28,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: #020202;
+  font-family: "Font-Titles", serif;
 }
 h2,
 h3,
@@ -38,12 +37,14 @@ h5 {
   font-size: 30px;
   text-align: center;
   color: #c0bec2;
+  font-family: "Font-Titles", serif;
 }
 
 p {
   font-size: 20px;
   text-align: center;
   color: #9a979d;
+  font-family: "Font-Subtitles", sans-serif;
 }
 ul, dl{
   background-color: #faedd9;
@@ -75,7 +76,14 @@ video{
   width: 70%;
   height: 70%;
   margin-left: 20%;
+  padding-left: 50px;
 }
+
+audio{
+  width: 70%;
+  padding-left: 100px;
+}
+
 
 
 
