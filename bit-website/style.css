@@ -69,15 +69,6 @@ p {
   font-size: 20px;
 }
 
-.footer {
-  background-color: #131214;
-  color: #c0bec2;
-  padding: 50px;
-  border-radius: 30px;
-}
-
-
-
 ul, dl{
     background-color: #001501;
     color: #c0bec2;
@@ -99,9 +90,20 @@ label, caption {
   margin: 20px;
   text-align: center;
 }
+
+.footer {
+    padding: 50px;
+    border-radius: 30px;
+  }
 .redes {
     margin: 20px;
    padding: 20px;
    text-align: center;
    
+}
+
+video{
+    width: 70%;
+    height: 70%;
+    margin-left: 20%;
 }
