@@ -5,9 +5,7 @@
 .color5 { #ea2a15 }; */
 
 
-* {
-  box-sizing: border-box;
-}
+
 
 /*Index*/
 
@@ -19,123 +17,130 @@ body {
 }
 
 body {
-  background-color: #faedd9;
-  color: #808f12;
   margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
-h1 {
-  font-size: 50px;
+
+.container {
+  display: flex;
+  
+}
+
+main{
+  width: 25%;
+}
+
+aside{
+  width: 75%;
+}
+
+
+
+
+/*classes*/
+
+* {
+  box-sizing: border-box;
+}
+
+.name-center{
   text-align: center;
-  color: #020202;
-  font-family: "Font-Titles", serif;
-}
-h2,
-h3,
-h4,
-h5 {
-  font-size: 30px;
-  text-align: center;
-  color: #c0bec2;
-  font-family: "Font-Titles", serif;
+  font-size: 2em;
+  color: #9cac28;
 }
 
-p {
-  font-size: 20px;
-  text-align: center;
-  color: #9a979d;
-  font-family: "Font-Subtitles", sans-serif;
-}
-ul, dl{
-  background-color: #faedd9;
-  color: #c0bec2;
-  margin: 20px;
-  font-size: 20px;
-}
+/* section-index */
 
-dt {
-font-weight: bold;
-color: #e9e7eb;
-margin: 20px;
-text-align: center;
-
-}
-
-th, td{
-  padding: 20px 10px;
-}
-
-label, caption {
-font-weight: bold;
-color: #e9e7eb;
-margin: 20px;
-text-align: center;
-}
-
-video{
-  width: 70%;
-  height: 70%;
-  margin-left: 20%;
-  padding-left: 50px;
-}
-
-audio{
-  width: 70%;
-  margin-left: 20%;
-  padding-left: 100px;
-}
-
-
-
-
-
-/*CLASS*/
-
-
-.foto {
-  width: 400px;
-  height: 400px;
+.section-index1{
   border-radius: 50%;
-  margin: 40px;
+ 
 }
 
-.header {
-  background-color: #faedd9;
-  color: #2a5c0b;
-  padding: 50px;
-  border-radius: 30px;
-  margin: 20px;
-  font-size: 20px;
+.foto1{
+
+  padding-top: 10%;
+  padding-left: 5%;
   text-align: center;
 }
 
 
+/* MENU */
 
-.receta {
-  background-color: #faedd9;
-  color: #c0bec2;
-  text-align: center;
-  margin-left: 20px;
-  font-size: 20px;
+.menu-page{
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  text-transform: uppercase;
+  background-color: #808f12;
+}
+
+
+.footer-page{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #143818;
+  color: white;
 }
 
 
 
-.footer {
-    padding: 50px;
-    border-radius: 30px;
-  }
-.redes {
-    margin: 20px;
-   padding: 20px;
-   text-align: center;
-   
+.container1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #256b2d;
+  color: white;
 }
 
 .bg-contacto{
- background-color: white;
- color:black;
- text-align: center;  
+  display: flex;
+  padding-left: 10%;
+  padding-top: 10%;
+  background-color: grey;
+  width: 80%;
+  height: 40%;
+  font-family: 'Font-Subtitles', sans-serif;
+  font-size: 1.5em;
+}
+.table-contacto{
+  display:flex;
+  justify-content: space-between;
+  background-color: grey;
+  width: 90%;
+  height: 40%;
+  font-family: 'Font-Subtitles', sans-serif;
+  
+
 }
 
 
+h1{
+  color: red;
+  font-family: 'Font-Title', serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2,h3,h4{
+  color: red;
+  font-family: 'Font-Title', serif;
+  font-size: 2em;
+  text-align: center;
+}
+p{
+  padding-left: 5%;
+  font-family: 'Font-Subtitles', sans-serif;
+  font-size: 1.5em;
+  
+} 
+
+ol, ul dt{
+  padding-left: 5%;
+  margin-top: 5%;
+  font-family: 'Font-Subtitles', sans-serif;
+  font-size: 1.5em;
+  
+}
