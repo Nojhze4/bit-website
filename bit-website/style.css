@@ -22,7 +22,7 @@ body {
   background-color: #faedd9;
   color: #808f12;
   margin: 0;
-  padding: 20;
+  padding: 0;
 }
 h1 {
   font-size: 50px;
@@ -81,8 +81,10 @@ video{
 
 audio{
   width: 70%;
+  margin-left: 20%;
   padding-left: 100px;
 }
+
 
 
 
@@ -112,9 +114,8 @@ audio{
 .receta {
   background-color: #faedd9;
   color: #c0bec2;
-  padding: 50px;
-  border-radius: 30px;
-  margin: 20px;
+  text-align: center;
+  margin-left: 20px;
   font-size: 20px;
 }
 
@@ -130,4 +131,11 @@ audio{
    text-align: center;
    
 }
+
+.bg-contacto{
+ background-color: white;
+ color:black;
+ text-align: center;  
+}
+
 
