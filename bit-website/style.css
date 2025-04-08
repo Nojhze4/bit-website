@@ -68,8 +68,8 @@ aside{
 /* MENU */
 
 .menu-page{
-  padding: 20px;
-  display: flex;
+    display: flex;
+    padding: 20px;
   justify-content: end;
   gap: 50px;
   text-transform: uppercase;
@@ -99,7 +99,6 @@ aside{
   display: flex;
   padding-left: 10%;
   padding-top: 10%;
-  background-color: grey;
   width: 80%;
   height: 40%;
   font-family: 'Font-Subtitles', sans-serif;
@@ -108,7 +107,6 @@ aside{
 .table-contacto{
   display:flex;
   justify-content: space-between;
-  background-color: grey;
   width: 90%;
   height: 40%;
   font-family: 'Font-Subtitles', sans-serif;
