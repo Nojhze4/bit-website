@@ -1,15 +1,3 @@
-/* /* .color1 { #042608 };
-.color2 { #2a5c0b };
-.color3 { #808f12 };
-.color4 { #faedd9 };
-.color5 { #ea2a15 }; */
-
-
-
-
-/*Index*/
-
-
 /*GENERAL*/
 /* Clase 08/04/2025 */
 
@@ -22,11 +10,16 @@
   src: url("fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root{
   --primary-color: rgb(212, 47, 18);
   --secundary-color: rgb(116, 111, 109);
   --white-color: rgb(48, 47, 3);
-
+  --font-title: 'Font-Titles', serif;
+  --font-subtitle: 'Font-Subtitles', sans-serif;
 }
 
 .color-titles{
@@ -41,150 +34,11 @@
   color: var(--secundary-color)
 }
 
-
-/* Clase 08/04/2025--fin */
-
-html,
-body {
-  background-color: rgb(241, 238, 230);
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-
-/* Clases anteriores */
-
-  
-
-
-main{
-  width: 25%;
-  display: flex;
-  
-  
-}
-
-aside{
-  width: 75%;
-  justify-content: space-between;
-}
-
-
-
-
-/*classes*/
-
-* {
-  box-sizing: border-box;
-}
-
-.name-center{
-  text-align: center;
-  font-size: 1em;
-  
-}
-
-/* section-index */
-
-.section-index1{
-  border-radius: 50%;
- 
-}
-
-.foto1{
-
-  padding-top: 10%;
-  padding-left: 5%;
-  text-align: center;
-}
-
-
-/* MENU */
-
-.menu-page{
-  display: flex;
-    padding: 20px;
-  justify-content: end;
-  gap: 50px;
-  text-transform: uppercase;
-  background-color: #808f12;
-}
-
-/* Guia display row */
-.footer-page{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0px;
-  background-color: #143818;
-  color: white;
-}
-
-.footer-c-page{
-  margin-top: 30%;
-  justify-content: space-between;
-  background-color: #143818;
-  color: white;
-  
-}
-
-.footer-pageExp{
-  margin-top: 30%;
-  justify-content:space-between;
-  background-color: #143818;
-  color: white;
-}
-
-
-.container1{
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #256b2d;
-  color: white;
-}
-
-.bg-contacto{
-  padding-left: 10%;
-  padding-top: 10%;
-  width: 80%;
-  height: 40%;
-  font-family: 'Font-Subtitles', sans-serif;
-  font-size: 1.5em;
-  
-}
-.table-contacto{
-  justify-content: center;
-  width: 90%;
-  height: 40%;
-  font-family: 'Font-Subtitles', sans-serif;
-  
-
-}
-
-
-h1, h2, h3, h4 {
-  font-family: 'Font-Title', serif;
+.h2{
+  font-family: var(--font-title);
   font-size: 2em;
   text-align: center;
+  color: var(--primary-color);
 }
 
 
-p{
-  padding-left: 5%;
-  font-family: 'Font-Subtitles', sans-serif;
-  font-size: 1.5em;
-  
-} 
-
-ol, ul dt{
-  padding-left: 5%;
-  margin-top: 5%;
-  font-family: 'Font-Subtitles', sans-serif;
-  font-size: 1.5em;
-  
-}

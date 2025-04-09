@@ -12,7 +12,7 @@
 
 © Jhon Ramirez 2025
 
-![logo](nojh.PNG)
+![logo](./bit-website/favicon.ico.PNG)
 
 
 
