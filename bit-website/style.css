@@ -57,7 +57,7 @@ body {
 main{
   width: 25%;
   display: flex;
-  justify-content: center;
+  gap: 40px;
 }
 
 aside{
