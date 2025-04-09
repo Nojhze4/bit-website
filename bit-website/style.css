@@ -1,10 +1,9 @@
 /*GENERAL*/
-/* Clase 08/04/2025 */
-
 @font-face {
   font-family: Font-Titles;
   src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf")
 }
+
 @font-face {
   font-family: Font-Subtitles;
   src: url("fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
@@ -14,28 +13,28 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --primary-color: #071018;
   --secundary-color: #1c2b38;
   --white-color: #7991a8;
-  --black-color: #000000;  
+  --black-color: #000000;
   --font-title: 'Font-Titles', serif;
   --font-subtitle: 'Font-Subtitles', sans-serif;
 }
 
-.color-titles{
+.color-titles {
   color: var(--primary-color)
 }
 
-.color-paragraph{
+.color-paragraph {
   color: var(--white-color)
 }
 
-.color-subtitles{
+.color-subtitles {
   color: var(--secundary-color)
 }
 
-.h2{
+.h2 {
   font-family: var(--font-title);
   font-size: 2em;
   text-align: center;
@@ -43,22 +42,15 @@
 }
 
 
-.index-page{
-   display: flex;
-   flex-wrap: wrap;
-   
-}
-/* Historia */
-aside{
-  flex: 70%;
- height: 500px;
- background-color: var(--secundary-color);
- font-family: var(--font-subtitle);
- font-size: 1em;
+.index-page {
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
+
 /* Familia-Objetivos */
-.section-page{
+.section-page {
   flex: 30%;
   height: 500px;
   background-color: var(--white-color);
@@ -67,30 +59,71 @@ aside{
 }
 
 /*Nav*/
-.menu-page{
+.menu-page {
   display: flex;
- justify-content: center;
- background-color: var(--primary-color);
- padding: 20px;
+  justify-content: center;
+  background-color: var(--primary-color);
+  padding: 20px;
 }
 
-.menu-page a{ 
-  
-    text-decoration: none;
-    color: var(--white-color);
-    font-family: var(--font-subtitle);
-    font-size: 1.5em;
-    padding: 10px;
+.menu-page a {
+
+  text-decoration: none;
+  color: var(--white-color);
+  font-family: var(--font-subtitle);
+  font-size: 1.5em;
+  padding: 10px;
 }
 
-.menu-page a:hover{
+.menu-page a:hover {
   background-color: var(--secundary-color);
   color: var(--white-color);
   transition: 0.5s;
 }
 
 
-h1{
+
+.photo {
+  display: flex;
+  justify-content: center;
+  color: var(--white-color);
+
+
+
+
+
+}
+
+.footer-page {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  font-family: var(--font-subtitle);
+  font-size: 1em;
+  color: var(--white-color);
+  padding: 20px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--white-color);
+}
+
+/* Historia */
+aside {
+  flex: 70%;
+  height: 500px;
+  background-color: var(--secundary-color);
+  font-family: var(--font-subtitle);
+  font-size: 1em;
+}
+
+h1 {
   height: 100%;
   font-family: var(--font-title);
   background-color: var(--white-color);
@@ -103,19 +136,11 @@ h1{
   margin-bottom: 0;
 
 }
-/* pendiente centrar */
-.photo-jhon{
-  display: flex;
-  margin: 10px;
-}
 
-.footer-page{
-  display: flex;
-  justify-content: center;
-  background-color: var(--primary-color);
-  font-family: var(--font-subtitle);
+h2,
+p {
+  font-family: var(--font-title);
   font-size: 1em;
-  color: var(--white-color);
-  padding: 20px;
-  
+  text-align: center;
+  color: var(--primary-color);
 }
