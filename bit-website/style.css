@@ -13,10 +13,19 @@
 /*GENERAL*/
 /* Clase 08/04/2025 */
 
+@font-face {
+  font-family: Font-Titles;
+  src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+}
+@font-face {
+  font-family: Font-Subtitles;
+  src: url("fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+}
+
 :root{
-  --primary-color: rgb(65, 80, 2);
-  --secundary-color: rgb(68, 70, 66);
-  --white-color: rgb(151, 119, 12);
+  --primary-color: rgb(212, 47, 18);
+  --secundary-color: rgb(116, 111, 109);
+  --white-color: rgb(48, 47, 3);
 
 }
 
@@ -37,7 +46,7 @@
 
 html,
 body {
-  background-color: rgb(204, 190, 154);
+  background-color: rgb(241, 238, 230);
   height: 100%;
 }
 
@@ -49,19 +58,20 @@ body {
 
 
 /* Clases anteriores */
-.container {
-  display: flex;
+
   
 }
 
 main{
   width: 25%;
   display: flex;
-  gap: 40px;
+  
+  
 }
 
 aside{
   width: 75%;
+  justify-content: space-between;
 }
 
 
