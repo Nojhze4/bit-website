@@ -15,9 +15,10 @@
 }
 
 :root{
-  --primary-color: rgb(212, 47, 18);
-  --secundary-color: rgb(116, 111, 109);
-  --white-color: rgb(48, 47, 3);
+  --primary-color: #071018;
+  --secundary-color: #1c2b38;
+  --white-color: #7991a8;
+  --black-color: #000000;  
   --font-title: 'Font-Titles', serif;
   --font-subtitle: 'Font-Subtitles', sans-serif;
 }
@@ -42,3 +43,79 @@
 }
 
 
+.index-page{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+/* Historia */
+aside{
+  flex: 70%;
+ height: 500px;
+ background-color: var(--secundary-color);
+ font-family: var(--font-subtitle);
+ font-size: 1em;
+}
+
+/* Familia-Objetivos */
+.section-page{
+  flex: 30%;
+  height: 500px;
+  background-color: var(--white-color);
+  font-family: var(--font-subtitle);
+  font-size: 1em;
+}
+
+/*Nav*/
+.menu-page{
+  display: flex;
+ justify-content: center;
+ background-color: var(--primary-color);
+ padding: 20px;
+}
+
+.menu-page a{ 
+  
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var(--font-subtitle);
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.menu-page a:hover{
+  background-color: var(--secundary-color);
+  color: var(--white-color);
+  transition: 0.5s;
+}
+
+
+h1{
+  height: 100%;
+  font-family: var(--font-title);
+  background-color: var(--white-color);
+  font-family: var(--font-title);
+  font-size: 3em;
+  text-align: center;
+  color: var(--primary-color);
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+/* pendiente centrar */
+.photo-jhon{
+  display: flex;
+  margin: 10px;
+}
+
+.footer-page{
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  font-family: var(--font-subtitle);
+  font-size: 1em;
+  color: var(--white-color);
+  padding: 20px;
+  
+}
