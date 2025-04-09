@@ -1,4 +1,4 @@
-/* .color1 { #042608 };
+/* /* .color1 { #042608 };
 .color2 { #2a5c0b };
 .color3 { #808f12 };
 .color4 { #faedd9 };
@@ -11,8 +11,33 @@
 
 
 /*GENERAL*/
+/* Clase 08/04/2025 */
+
+:root{
+  --primary-color: rgb(65, 80, 2);
+  --secundary-color: rgb(68, 70, 66);
+  --white-color: rgb(151, 119, 12);
+
+}
+
+.color-titles{
+  color: var(--primary-color)
+}
+
+.color-paragraph{
+  color: var(--white-color)
+}
+
+.color-subtitles{
+  color: var(--secundary-color)
+}
+
+
+/* Clase 08/04/2025--fin */
+
 html,
 body {
+  background-color: rgb(204, 190, 154);
   height: 100%;
 }
 
@@ -22,6 +47,8 @@ body {
   flex-direction: column;
 }
 
+
+/* Clases anteriores */
 .container {
   display: flex;
   
@@ -29,6 +56,8 @@ body {
 
 main{
   width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
 aside{
@@ -47,7 +76,7 @@ aside{
 .name-center{
   text-align: center;
   font-size: 2em;
-  color: #9cac28;
+  
 }
 
 /* section-index */
@@ -68,7 +97,7 @@ aside{
 /* MENU */
 
 .menu-page{
-    display: flex;
+  display: flex;
     padding: 20px;
   justify-content: end;
   gap: 50px;
@@ -76,19 +105,33 @@ aside{
   background-color: #808f12;
 }
 
-
+/* Guia display row */
 .footer-page{
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  background-color: #143818;
+  color: white;
+}
+
+.footer-c-page{
+  margin-top: 30%;
   justify-content: space-between;
-  padding: 10px;
+  background-color: #143818;
+  color: white;
+  
+}
+
+.footer-pageExp{
+  margin-top: 30%;
+  justify-content:space-between;
   background-color: #143818;
   color: white;
 }
 
 
-
 .container1{
-  display: flex;
   justify-content: space-between;
   padding: 10px;
   background-color: #256b2d;
@@ -96,7 +139,6 @@ aside{
 }
 
 .bg-contacto{
-  display: flex;
   padding-left: 10%;
   padding-top: 10%;
   width: 80%;
@@ -106,8 +148,7 @@ aside{
   
 }
 .table-contacto{
-  display:flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
   height: 40%;
   font-family: 'Font-Subtitles', sans-serif;
@@ -116,19 +157,13 @@ aside{
 }
 
 
-h1{
-  color: red;
+h1, h2, h3, h4 {
   font-family: 'Font-Title', serif;
   font-size: 2em;
   text-align: center;
 }
 
-h2,h3,h4{
-  color: red;
-  font-family: 'Font-Title', serif;
-  font-size: 2em;
-  text-align: center;
-}
+
 p{
   padding-left: 5%;
   font-family: 'Font-Subtitles', sans-serif;
