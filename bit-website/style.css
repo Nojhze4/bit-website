@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Font-Subtitles;
-  src: url("fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+  src: url("./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
 }
 
 * {
@@ -18,6 +18,17 @@
   --secundary-color: #1c2b38;
   --white-color: #7991a8;
   --black-color: #000000;
+  --color-xsmall: #813407;
+  --color-small: #910b14;
+  --color-medium: #0b5a23bd;
+  --color-large: #948328;
+  --color-xlarge: #12550463;
+  --color-xxlarge: #27832b77;
+
+
+
+
+
   --font-title: 'Font-Titles', serif;
   --font-subtitle: 'Font-Subtitles', sans-serif;
 }
@@ -143,4 +154,40 @@ p {
   font-size: 1em;
   text-align: center;
   color: var(--primary-color);
+}
+
+
+.section-table {
+  display: grid;
+  grid-template-rows:1fr, 1fr 1fr;
+  gap: 10px;
+  background-color: var(--white-color);
+  font-family: var(--font-subtitle);
+  font-size: 1em;
+  padding: 2%;
+
+}
+
+/* Viewport */
+@media screen and (min-width: 576px){
+  .menu-page{ background-color: var(--color-xsmall);}
+.footer-page{background-color: var(--color-small);}
+}
+@media screen and (min-width: 768px){
+
+.menu-page{ background-color: var(--color-small);}
+.footer-page{background-color: var(--color-medium);}
+}
+@media screen and (min-width: 992px){
+  .menu-page{ background-color: var(--color-medium);}
+  .footer-page{background-color: var(--color-large);}
+}
+@media screen and (min-width: 1200px){
+  .menu-page{ background-color:var(--color-large);}
+  .footer-page{background-color:var(--color-xlarge);}
+}
+
+@media screen and (min-width: 1400px){
+  .menu-page{ background-color: var(--color-xlarge)}
+  .footer-page{background-color:var(--color-xxlarge)}
 }
