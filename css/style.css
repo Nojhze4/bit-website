@@ -1,0 +1,143 @@
+/* TAGS
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*GENERAL*/
+html, body {
+  height: 100%;
+}
+
+html {
+
+  
+}
+
+body {
+ margin: 0;
+}
+
+@font-face {
+  font-family: Font-Titles;
+  src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+}
+
+@font-face {
+  font-family: Font-Subtitles;
+  src: url("./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+}
+
+:root {
+  --color-principal: #F4F4F4;
+  --color-secundario: #333333;
+  --color-enfasis: #007BFF;
+  --color-texto: #333333;
+  --color-fondo-seccion: #FFFFFF;
+  --color-texto-secundario: #666666;
+  --font-titles: 'Font-Titles', sans-serif;
+  --font-subtitles: 'Font-Subtitles', sans-serif;
+}
+
+
+/* MENU PAGE */
+
+.menu-page {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+  background-color: var(--color-principal);
+  color: var(--color-texto);
+  font-family: var(--font-titles);
+  font-size: 1.5em;
+}
+
+.menu-page a {
+  text-decoration: line;
+  color: var(--color-secundario);
+  font-family: var(--font-titles);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-fondo-seccion);
+  text-align: center;
+ 
+}
+
+.menu-page a:hover {
+  background-color: var(--color-enfasis);
+  color: var(--color-principal);
+  transition: all 0.3s ease-in-out;
+}
+
+.photo{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+
+}
+
+.index-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+/* FOOTER PAGE */
+.footer-page {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+  background-color: var(--color-principal);
+  color: var(--color-texto);
+  font-family: var(--font-titles);
+  font-size: 1.5em;
+}
+
+
+
+
+
+/* Viewport */
+@media screen and (min-width: 576px) {
+  .menu-page {
+    background-color: black;
+  }
+
+  .footer-page {
+    background-color: black;
+  }
+}
+/*TABLET*/
+@media screen and (min-width: 768px) {
+
+  .menu-page {
+    background-color: red;
+  }
+
+  .footer-page {
+    background-color: red;
+  }
+}
+/*COMPUTER*/
+@media screen and (min-width: 992px) {
+  .menu-page {
+    background-color: green;
+  }
+
+  .footer-page {
+    background-color: green;
+  }
+}
+
+
+
+
+
+
