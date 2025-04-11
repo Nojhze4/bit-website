@@ -1,54 +1,4 @@
-/* Viewport */
-@media screen and (min-width: 576px) {
-  .menu-page {
-    background-color: var(--color-xsmall);
-  }
 
-  .footer-page {
-    background-color: var(--color-small);
-  }
-}
-
-@media screen and (min-width: 768px) {
-
-  .menu-page {
-    background-color: var(--color-small);
-  }
-
-  .footer-page {
-    background-color: var(--color-medium);
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .menu-page {
-    background-color: var(--color-medium);
-  }
-
-  .footer-page {
-    background-color: var(--color-large);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .menu-page {
-    background-color: var(--color-large);
-  }
-
-  .footer-page {
-    background-color: var(--color-xlarge);
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .menu-page {
-    background-color: var(--color-xlarge)
-  }
-
-  .footer-page {
-    background-color: var(--color-xxlarge)
-  }
-}
 
 /*GENERAL*/
 @font-face {
@@ -82,7 +32,7 @@
 
 body {
 
-  font-family: text, sans-serif;
+  font-family: font-titles, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -299,4 +249,57 @@ tfoot td {
 
 .menu-page a:hover {
   text-decoration: underline;
+}
+
+
+/* Viewport */
+@media screen and (min-width: 576px) {
+  .menu-page {
+    background-color: var(--color-xsmall);
+  }
+
+  .footer-page {
+    background-color: var(--color-small);
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .menu-page {
+    background-color: var(--color-small);
+  }
+
+  .footer-page {
+    background-color: var(--color-medium);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu-page {
+    background-color: var(--color-medium);
+  }
+
+  .footer-page {
+    background-color: var(--color-large);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-page {
+    background-color: var(--color-large);
+  }
+
+  .footer-page {
+    background-color: var(--color-xlarge);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .menu-page {
+    background-color: var(--color-xlarge)
+  }
+
+  .footer-page {
+    background-color: var(--color-xxlarge)
+  }
 }

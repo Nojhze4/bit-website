@@ -1,7 +1,6 @@
 # **bit-website**
-# Acerca de Jhon Ramirez
+# Repositorio de mi primer proyecto en BIT
  
-
 
 ## Descripción
 
@@ -12,7 +11,7 @@
 
 © Jhon Ramirez 2025
 
-![logo](./bit-website/favicon.ico.PNG)
+![GitHub](https://github.com/Nojhze4)
 
 
 
