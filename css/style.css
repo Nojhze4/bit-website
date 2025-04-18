@@ -37,6 +37,15 @@ body {
   --font-titles: 'Font-Titles', sans-serif;
   --font-subtitles: 'Font-Subtitles', sans-serif;
 }
+@media screen and (max-width: 768px) {
+  :root {
+    --font-titles: 'Font-Titles', sans-serif;
+    --font-subtitles: 'Font-Subtitles', sans-serif;
+  } 
+  
+    
+}
+
 
 
 
