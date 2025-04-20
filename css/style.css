@@ -181,7 +181,6 @@
   /* Media Queries */
   @media (max-width: 576px) {
   .menu-page {
-  flex-direction: column;
   height: auto;
   }
   .photo img {
@@ -193,6 +192,7 @@
   h2 {
   font-size: 1.5rem;
   }
+  
   }
   @media (min-width: 577px) and (max-width: 768px) {
   .menu-page {
