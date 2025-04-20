@@ -48,7 +48,7 @@
   .menu-page a {
   margin: 0 15px;
   text-decoration: none;
-  color: white; /* Color para los elementos de menú */
+  color: white; 
   font-weight: 600;
   }
   .menu-page a:hover {
