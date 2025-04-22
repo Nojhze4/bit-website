@@ -28,11 +28,11 @@
   
   /*Root Variables*/
   :root {
-  --color-principal: #819D8B;
-  --color-secundario: #28a745;
-  --color-texto: #333333;
-  --color-fondo-seccion: #A1B6A9;
-  --color-enfasis: #64816E;
+  --color-principal: #3c3c3c;
+  --color-secundario: #28a745; /*Boton accion*/
+  --color-texto: #515151;
+  --color-fondo-seccion: #A666666;
+  --color-enfasis: #8c8c8c;
   --font-titles: 'Font-Titles', sans-serif;
   --font-subtitles: 'Font-Subtitles', sans-serif;
   }
