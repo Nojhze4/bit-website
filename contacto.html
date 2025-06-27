@@ -9,50 +9,46 @@
     href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Niconne&family=Noto+Sans+Canadian+Aboriginal:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Experiencia</title>
-  <h1 class="color-titles">Experiencia</h1>
+  <title>Contacto</title>
 </head>
 
 <body>
-  <nav class="menu-page"> <a href="./index.html">Inicio</a><a
-      href="./contacto.html">Contacto</a> </nav>
+  <header>
+    <h1 class="color-titles">Contáctame</h1>
+    <nav class="menu-page">
+      <a href="./index.html">Inicio</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
+  </header>
   <main>
-
     <section class="box-grid">
-
-      <form>
-        </label> <label>Agendar cita
-          <input type="checkbox" />
-          <br />
-        </label> <label for="name">Name</label> <input type="text" id="name" required
-          placeholder="Example: Nombre Apellido" />
-        <label>Email</label>
-        <label>
-          <input type="Email" id="Email" required>
-          <label>Message</label>
-          <input id="message" required placeholder="descripción solicitud">
-        </label>
-        <label>
-          <input type="submit" value="Send" />
-        </label>
+      <form autocomplete="off">
+        <h2 style="color:#ff4e50; text-align:center; margin-bottom: 10px;">¿Tienes una consulta o propuesta?</h2>
+        <p style="text-align:center; color:#e0e0e0; margin-bottom: 20px;">Completa el formulario y me pondré en contacto contigo lo antes posible.</p>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required placeholder="Ejemplo: Nombre Apellido" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="ejemplo@email.com" />
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Describe tu solicitud o mensaje"></textarea>
+        <input type="submit" value="Enviar" />
       </form>
     </section>
-</body>
-</main>
-<footer class="footer-page">
-  <p class="color-paragraph"><a href="#Top">Top</a></p>
-  <a href="https://www.instagram.com/jhonramirez7067/" target="_blank" rel="noopener noreferrer"> <img
-      src="./bit-website/assets/instagram.png" alt="instagram-jhonramirez7067" width="70" height="70" /> </a>
-  <a href="https://github.com/Nojhze4" target="_blank" rel="noopener noreferrer"> <img
-      src="./bit-website/assets/25231.png" alt="github-//github.com/Nojhze4" width="70" height="70" /> </a>
-  <a href="https://bitinstitute.co/" target="_blank" rel="noopener noreferrer"> <img src="./bit-website/assets/BIT.png"
-      alt="bit-institute" width="80" height="80" /> </a>
-  <p>&copy; todos los derechos reservados 2025</p>
-</footer>
-<script src="./script.js"></script>
-</body>
-
-</html>
+  </main>
+  <footer class="footer-page">
+    <p class="color-paragraph"><a href="#Top">Top</a></p>
+    <a href="https://www.instagram.com/jhonramirez7067/" target="_blank" rel="noopener noreferrer">
+      <img src="./bit-website/assets/instagram.png" alt="instagram-jhonramirez7067" width="70" height="70" />
+    </a>
+    <a href="https://github.com/Nojhze4" target="_blank" rel="noopener noreferrer">
+      <img src="./bit-website/assets/25231.png" alt="github-//github.com/Nojhze4" width="70" height="70" />
+    </a>
+    <a href="https://bitinstitute.co/" target="_blank" rel="noopener noreferrer">
+      <img src="./bit-website/assets/BIT.png" alt="bit-institute" width="80" height="80" />
+    </a>
+    <p>&copy; todos los derechos reservados 2025</p>
+  </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>
